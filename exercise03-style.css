@@ -48,7 +48,6 @@ ul.topnav li a {
   padding: 14px 16px;
 }
 ul.topnav li a:hover:not(.active) {background-color: #DFFF00;}
-ul.topnav li.right {float: right;}
 @media screen and (max-width: 600px) {
   ul.topnav li.right,
   ul.topnav li {float: none;}
