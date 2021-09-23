@@ -1,5 +1,10 @@
-body{background-color:#dcdcdc;}
-h1, p, figcaption {text-align: center;}
+body{
+	background-color:#dcdcdc;
+  margin: 0;
+}
+h1, p, figcaption, aboutTitle {
+	text-align: center;
+}
 h1 {
   font-size: 28px;
   font-family: Georgia, serif;
@@ -12,7 +17,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-header p {
+header p, .about {
   font-family: Arial;
   font-size: 18px;
 }
@@ -29,13 +34,16 @@ figure figcaption {
 .marginRight{
   margin-right: 80px;
 }
+.aboutTitle{
+	font-weight: bold;
+}
 ul.topnav {
   list-style: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   border: 1px solid black;
-  background-color: #FFBF00;
+  background-color: #D7BDE2 ;
 }
 ul.topnav li {
   border-bottom: 1px solid black;
@@ -47,8 +55,12 @@ ul.topnav li a {
   color: black;
   padding: 14px 16px;
 }
-ul.topnav li a:hover:not(.active) {background-color: #DFFF00;}
+ul.topnav li a:hover:not(.active) {
+  background-color: #C39BD3;
+}
 @media screen and (max-width: 600px) {
   ul.topnav li.right,
-  ul.topnav li {float: none;}
+  ul.topnav li {
+    float: none;
+  }
 }
