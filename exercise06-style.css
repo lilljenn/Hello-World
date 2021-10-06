@@ -1,1 +1,69 @@
-
+body{
+	background-color:#dcdcdc;
+  margin: 0;
+}
+h1, p, figcaption, h2 {
+	text-align: center;
+}
+h1 {
+  font-size: 28px;
+  font-family: Georgia, serif;
+  text-decoration: underline overline;
+}
+h2 {
+font-size: 20px;
+}
+img {
+  height: 30%;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header p, .about {
+  font-family: Arial;
+  font-size: 18px;
+}
+figure figcaption {
+  border: 2px dotted black;
+  font-family: Arial;
+  font-size: 16px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+.marginRight{
+  margin-right: 80px;
+}
+.aboutTitle{
+	font-weight: bold;
+}
+ul.topnav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid black;
+  background-color: #D7BDE2 ;
+}
+ul.topnav li {
+  border-bottom: 1px solid black;
+  float: left;
+}
+ul.topnav li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 14px 16px;
+}
+ul.topnav li a:hover:not(.active) {
+  background-color: #C39BD3;
+}
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
