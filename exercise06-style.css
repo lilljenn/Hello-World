@@ -1,5 +1,6 @@
 body{
-	background-color:#dcdcdc;
+	background-color:#F5EDF0;
+	color: #3D2C2E;
   margin: 0;
 }
 h1, p, figcaption, h2 {
@@ -25,7 +26,7 @@ header p, .about {
   font-size: 18px;
 }
 figure figcaption {
-  border: 2px dotted black;
+  border: 2px dotted #3D2C2E;
   font-family: Arial;
   font-size: 16px;
 }
@@ -45,21 +46,21 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border: 1px solid black;
-  background-color: #D7BDE2 ;
+  border: 1px solid #3D2C2E;
+  background-color: #D1CCDC;
 }
 ul.topnav li {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #3D2C2E;
   float: left;
 }
 ul.topnav li a {
   display: block;
   text-decoration: none;
-  color: black;
+  color: #3D2C2E;
   padding: 14px 16px;
 }
 ul.topnav li a:hover:not(.active) {
-  background-color: #C39BD3;
+  background-color: #F5EDF0;
 }
 @media screen and (max-width: 600px) {
   ul.topnav li.right,
