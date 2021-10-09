@@ -21,7 +21,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-header p, .about {
+header p, #about {
   font-family: Arial;
   font-size: 18px;
 }
@@ -35,7 +35,7 @@ figure figcaption {
   width: 33.33%;
   padding: 10px;
 }
-.marginRight{
+#marginRight{
   margin-right: 80px;
 }
 ul.topnav {
