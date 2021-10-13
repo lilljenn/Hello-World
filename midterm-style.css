@@ -42,7 +42,7 @@ figure figcaption {
 ul {
   display: table;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
 }
 #instructions{
   text-align: center;
