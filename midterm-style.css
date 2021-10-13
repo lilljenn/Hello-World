@@ -4,7 +4,7 @@ body{
   margin: 0;
   text-align: center;
 }
-h1, p, figcaption, h2{
+h1, p, figcaption, h2, h3{
 	text-align: center;
 }
 h1{
@@ -12,7 +12,7 @@ h1{
   font-family: Georgia, serif;
   text-decoration: underline overline;
 }
-h2{
+h2, h3{
 font-size: 28px;
 }
 img{
@@ -42,8 +42,5 @@ figure figcaption {
 ul{
   display: table;
   margin: 0 auto;
-  text-align: center;
-}
-#rooms{
   text-align: left;
 }
