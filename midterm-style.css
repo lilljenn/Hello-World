@@ -40,6 +40,6 @@ figure figcaption {
   margin-right: 80px;
 }
 ul {
-  text-align: center;
-  list-style: inside;
+  display: table;
+  margin: 0 auto;
 }
