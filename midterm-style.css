@@ -39,3 +39,7 @@ figure figcaption {
 .marginRight{
   margin-right: 80px;
 }
+ul {
+  text-align: center;
+  list-style: inside;
+}
