@@ -39,7 +39,7 @@ figure figcaption {
 .marginRight{
   margin-right: 80px;
 }
-ul{
+#items, #directions{
   display: table;
   margin: 0 auto;
   text-align: left;
