@@ -37,12 +37,15 @@ figure figcaption {
   padding: 10px;
 }
 .marginRight{
-  margin-right: 40%;
+  margin-right: 80px;
 }
 #items, #directions{
   display: table;
   margin: 0 auto;
   text-align: left;
+}
+#page-footer{
+  width: 100%;
 }
 ul.topnav{
   list-style: none;
