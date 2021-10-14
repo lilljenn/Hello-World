@@ -1,6 +1,6 @@
 body{
-  background-color: #F4F5F2;
-  color: #24281D;
+  background-color: #DDEFDC;
+  color: #20431E;
   margin: 0;
   text-align: center;
 }
@@ -43,4 +43,31 @@ ul{
   display: table;
   margin: 0 auto;
   text-align: left;
+}
+ul.topnav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #20431E;
+  background-color: #D1CCDC;
+}
+ul.topnav li {
+  border-bottom: 1px solid #20431E;
+  float: left;
+}
+ul.topnav li a {
+  display: block;
+  text-decoration: none;
+  color: #20431E;
+  padding: 14px 16px;
+}
+ul.topnav li a:hover:not(.active) {
+  background-color: #F5EDF0;
+}
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
 }
