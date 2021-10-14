@@ -31,7 +31,7 @@ figure figcaption {
   font-family: Arial;
   font-size: 16px;
 }
-.column {
+.column{
   float: left;
   width: 33.33%;
   padding: 10px;
@@ -44,7 +44,7 @@ ul{
   margin: 0 auto;
   text-align: left;
 }
-ul.topnav {
+ul.topnav{
   list-style: none;
   margin: 0;
   padding: 0;
@@ -52,22 +52,21 @@ ul.topnav {
   border: 1px solid #20431E;
   background-color: #BBDFB8;
 }
-ul.topnav li {
+ul.topnav li{
   border-bottom: 1px solid #20431E;
   float: left;
 }
-ul.topnav li a {
+ul.topnav li a{
   display: block;
   text-decoration: none;
   color: #20431E;
   padding: 14px 16px;
 }
-ul.topnav li a:hover:not(.active) {
+ul.topnav li a:hover:not(.active){
   background-color: #F5EDF0;
 }
 @media screen and (max-width: 600px) {
-  ul.topnav li.right,
-  ul.topnav li {
+  ul.topnav li{
     float: none;
   }
 }
