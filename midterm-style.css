@@ -3,6 +3,7 @@ body{
   color: #20431E;
   margin: 0;
   text-align: center;
+  font-family: Arial;
 }
 h1, p, figcaption, h2, h3{
 	text-align: center;
