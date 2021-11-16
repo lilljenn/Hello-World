@@ -59,6 +59,10 @@ ul.topnav li a {
 ul.topnav li a:hover:not(.active) {
   background-color: #F5EDF0;
 }
+body.darkMode{
+	background: #010101;
+	color: #ffffff;
+}
 @media screen and (min-width: 300px) and (max-width:600px){
 	ul.topnav li.right,
 	ul.topnav li {
