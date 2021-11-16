@@ -2,6 +2,5 @@ function btnText(){
   document.getElementByID("textHere").innerHTML="Clicked Text";
 }
 function btnDarkMode(){
-  background: #10101;
-  color: #ffffff;
+document.body.classList.toggle("darkMode");
 }
