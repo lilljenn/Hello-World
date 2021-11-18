@@ -1,6 +1,4 @@
-function btnText(){
-  document.getElementByID("textHere").innerHTML="Clicked Text";
-}
-function btnDarkMode(){
-document.body.classList.toggle("dark-mode");
+document.getElementById("column").style.color="blue";
+function darkMode(){
+document.body.classList.toggle('dark-mode');
 }
