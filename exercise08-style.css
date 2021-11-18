@@ -59,7 +59,7 @@ ul.topnav li a {
 ul.topnav li a:hover:not(.active) {
   background-color: #F5EDF0;
 }
-dark-mode{
+body.dark-mode{
 	background: #010101;
 	color: #ffffff;
 }
