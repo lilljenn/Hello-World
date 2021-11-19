@@ -4,5 +4,5 @@ function darkMode(){
 }
 clicks=0;
 function counter(){
- clicks+=1; document.getElementById("output").innerHTML =clicks+" is the total count.";
+ clicks+=1; document.getElementById("output").innerHTML=clicks+" is the total count.";
 }
