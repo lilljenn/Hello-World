@@ -23,6 +23,11 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+figure figcaption {
+  border: 2px dotted #3D2C2E;
+  font-family: Arial;
+  font-size: 16px;
+}
 ul.topnav {
 	list-style: none;
   	margin: 0;
