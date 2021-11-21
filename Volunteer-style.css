@@ -31,9 +31,9 @@ figure figcaption {
 width: 20%;
 }
 #places{
-    display: inline-block;
-	list-style: inside;
-text-align: center;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
 }
 #footer{
   width: 100%;
