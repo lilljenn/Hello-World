@@ -31,8 +31,8 @@ figure figcaption {
 width: 20%;
 }
 #places{
-    display: flex;
-  justify-content: center;
+    position: relative;
+ margin-left: 50%;
 }
 #footer{
   width: 100%;
