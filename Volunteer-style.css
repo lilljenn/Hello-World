@@ -30,7 +30,7 @@ figure figcaption {
 .logo{
 width: 20%;
 }
-.places{
+.places, .application{
   display: table;
   margin: 0 auto;
   text-align: center;
