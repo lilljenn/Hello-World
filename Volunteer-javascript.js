@@ -3,7 +3,7 @@ function applicationSubmit(){
   if (name!=""){
     document.getElementById("output").innerHTML="Welcome, "+name;
   }
-  else{
+  else if (name==""){
     document.getElementById("output").innerHTML="Please enter a name.";
   }
 }
