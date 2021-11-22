@@ -19,9 +19,27 @@
     <h1>Application</h1>
   </header>
   <article>
+    <div class="application">
       Name: <input type="text" name="name" id="name">
       <br/>
+      Please select the days you are available to volunteer:
+      <br/>
+      <select>
+        <option value="sunday">Sunday</option>
+        <option value="monday">Monday</option>
+        <option value="tuesday">Tuesday</option>
+        <option value="wednesday">Wednesday</option>
+        <option value="thursday">Thursday</option>
+        <option value="friday">Friday</option>
+        <option value="saturday">Saturday</option>
+      </select>
+      <br/>
+      Please write about why you would like to volunteer:
+      <br/>
+      <textarea placeholder="Write something..." style="height: 200px"></textarea>
+      <br/>
       <input type="submit" onclick="applicationSubmit()">
+    </div>
     <br/><br/>
     <p id="output"></p>
   </article>
