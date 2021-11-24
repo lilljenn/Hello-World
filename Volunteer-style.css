@@ -16,6 +16,10 @@ h1 {
   font-family: Arial, serif;
   text-decoration: underline;
 }
+h2, h3{
+  font-size: 28px;
+  font-family: Arial, serif;
+}
 img {
   height: auto;
   width: 20%;
