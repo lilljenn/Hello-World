@@ -22,7 +22,6 @@ h2, h3, h4{
 }
 img {
   height: auto;
-  width: 33.33%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -32,7 +31,7 @@ figure figcaption {
   font-size: 16px;
 }
 .logo{
-width: 33.33%;
+  width: 33.33%;
 }
 .column {
   float: left;
@@ -46,9 +45,6 @@ width: 33.33%;
 }
 * {
   box-sizing: border-box;
-}
-.imageRight{
-  width: 33.33%;
 }
 .places, .application, .center{
   display: table;
@@ -64,24 +60,24 @@ iframe{
 }
 ul.topnav {
 	list-style: none;
-  	margin: 0;
-  	padding: 0;
-  	overflow: hidden;
-  	border: 1px solid #800000;
-  	background-color: #ffd966;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #800000;
+  background-color: #ffd966;
 }
 ul.topnav li {
-  	border-bottom: 1px solid #800000;
-  	float: left;
+  border-bottom: 1px solid #800000;
+  float: left;
 }
 ul.topnav li a {
-  	display: block;
-  	text-decoration: none;
-  	color: #800000;
-  	padding: 14px 16px;
+  display: block;
+  text-decoration: none;
+  color: #800000;
+  padding: 14px 16px;
 }
 ul.topnav li a:hover:not(.active) {
-  	background-color: #ffd966;
+  background-color: #ffd966;
 }
 ul.footer li.right {float: right;}
 @media screen and (min-width: 300px) and (max-width:600px){
