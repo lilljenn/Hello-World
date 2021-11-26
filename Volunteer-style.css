@@ -4,6 +4,10 @@ body{
  	margin: 0;
   font-family: Arial, serif;
 }
+img{
+  max-width: 33.33%;
+  height: auto;
+}
 h1, p, figcaption, h2 {
 	text-align: center;
 }
