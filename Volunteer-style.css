@@ -22,7 +22,7 @@ h2, h3, h4{
 }
 img {
   height: auto;
-  width: 20%;
+  width: 33.33%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -44,7 +44,7 @@ width: 20%;
   width: 49%;
   padding: 1%;
 }
-.places, .application{
+.places, .application, .center{
   display: table;
   margin: 0 auto;
   text-align: center;
