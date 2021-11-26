@@ -35,8 +35,8 @@ figure figcaption {
   display: flex;
 }
 .column {
-margin: 10%;
-padding: 10%;
+margin: 1%;
+padding: 1%;
 }
 * {
   box-sizing: border-box;
