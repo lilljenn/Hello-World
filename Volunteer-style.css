@@ -42,6 +42,11 @@ width: 20%;
 .marginRight{
   margin-right: 3%;
 }
+.row{
+  float: left;
+  width: 49%;
+  padding: 1%;
+}
 .places, .application{
   display: table;
   margin: 0 auto;
