@@ -37,6 +37,7 @@ width: 33.33%;
 .column {
   float: left;
   padding: 2%;
+  margin: 0 auto;
 }
 .row{
   float: left;
