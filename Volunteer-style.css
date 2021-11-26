@@ -36,11 +36,11 @@ width: 33.33%;
 }
 .column {
   float: left;
-  padding: 5%;
+  padding: 2%;
 }
 .row{
   float: left;
-  padding: 5%;
+  padding: 2%;
   display: flex;
 }
 .imageRight{
