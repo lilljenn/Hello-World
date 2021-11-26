@@ -34,6 +34,13 @@ figure figcaption {
 .logo{
 width: 20%;
 }
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+.marginRight{
+  margin-right: 3%;
 .places, .application{
   display: table;
   margin: 0 auto;
