@@ -53,20 +53,37 @@ iframe{
 .subnav{
 padding: 14px 16px;
 background-color: #ffd966;
-border: none;
-outline: none;
 color: #800000;
 font-size: 16px;
-
+position: relative:;
+display: inline-block;
 }
 .subnav-content{
-  display: none;
+display: none;
+position: absolute;
+overflow: auto;
 }
-.subnav-content:focus-within{
+.dropdown-content a{
+  padding: 14px 16px;
+  text-decoration: none;
   display: block;
 }
+.dopdown-content a:hover{
+  background-color: #ffecb3;
+}
 .external{
-	visibility: hidden;
+border: none;
+outline: none;
+cursor: pointer;
+font-size: 16px;
+color: #800000;
+background-color: #ffd966;
+}
+.external:hover, .external:focus{
+  background-color: #ffecb3;
+}
+.show{
+  display: block;
 }
 #footer{
   width: 100%;
