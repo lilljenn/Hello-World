@@ -62,25 +62,27 @@ display: inline-block;
 display: none;
 position: absolute;
 overflow: auto;
+padding: 14px 16px;
+background-color: #ffd966;
+color: #800000;
 }
-.dropdown-content a{
+.subnav-content a{
   padding: 14px 16px;
   text-decoration: none;
   display: block;
 }
-.dopdown-content a:hover{
+.subnav-content a:hover{
   background-color: #ffecb3;
 }
 .external{
-border: none;
-outline: none;
-cursor: pointer;
-font-size: 16px;
-color: #800000;
 background-color: #ffd966;
+color: #800000;
+padding: 14px 16px;
+border: none;
+cursor: pointer;
 }
 .external:hover, .external:focus{
-  background-color: #ffecb3;
+background-color: #ffecb3;
 }
 .show{
   display: block;

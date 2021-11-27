@@ -8,5 +8,10 @@ function applicationSubmit(){
   }
 }
 function externalLink(){
+  document.getElementById("links").classList.toggle("show");
+}
+
+}
+function externalLink(){
   document.getElementById("external").classList.toggle("show");
 }
