@@ -41,9 +41,6 @@ figure figcaption {
 margin: 1%;
 padding: 1%;
 }
-* {
-  box-sizing: border-box;
-}
 .places, .application, .center{
   display: table;
   margin: 0 auto;
@@ -53,20 +50,24 @@ iframe{
   height: 50%;
   width: 50%;
 }
-/*
 .subnav{
-  float: left;
-  overflow: hidden;
+padding: 14px 16px;
+background-color: #ffd966;
+border: none;
+outline: none;
+color: #800000;
+font-size: 16px;
+
 }
-*/
 .subnav-content{
   display: none;
-/*  position: absolute; */
 }
-.subnav:focus + .subnav-content{
+.subnav-content:focus-within{
   display: block;
 }
-*/
+.external{
+	visibility: hidden;
+}
 #footer{
   width: 100%;
 }
@@ -78,19 +79,23 @@ ul.topnav {
   border: 1px solid #800000;
   background-color: #ffd966;
 }
+
 ul.topnav li {
   border-bottom: 1px solid #800000;
   float: left;
 }
+
 ul.topnav li a {
   display: block;
   text-decoration: none;
   color: #800000;
   padding: 14px 16px;
 }
+
 ul.topnav li a:hover:not(.active) {
-  background-color: #ffd966;
+  background-color: #ffecb3;
 }
+
 ul.footer li.right {float: right;}
 @media screen and (min-width: 300px) and (max-width:600px){
 	ul.topnav li.right,
