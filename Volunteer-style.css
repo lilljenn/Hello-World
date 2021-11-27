@@ -53,29 +53,17 @@ iframe{
   height: 50%;
   width: 50%;
 }
+/*
 .subnav{
   float: left;
   overflow: hidden;
 }
+*/
 .subnav-content{
   display: none;
   position: absolute;
 }
-/*
-.subnav .subnavBtn{
-  background-color: inherit;
-  margin: 0;
-  border: none;
-  outline: none;
-  padding: 14px 16px;
-  color: #800000;
-  background-color: #ffd966;
-  font-family: Arial, serif;
-  font-size: 16px;
-  cursor: pointer;
-}
-*/
-.subnav:hover .subnav-content{
+.subnav:hover + .subnav-content{
   display: block;
 }
 */
