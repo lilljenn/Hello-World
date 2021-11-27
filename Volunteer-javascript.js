@@ -7,6 +7,3 @@ function applicationSubmit(){
     document.getElementById("output").innerHTML="Please enter a name.";
   }
 }
-function externalLink(){
-  this.options[this.selectedIndex].value && (window.location=this.options[this.selectedIndex].value);
-}
