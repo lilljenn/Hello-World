@@ -7,3 +7,6 @@ function applicationSubmit(){
     document.getElementById("output").innerHTML="Please enter a name.";
   }
 }
+function externalLink(){
+  window.open(this.options[this.selectedIndex].value);
+}
