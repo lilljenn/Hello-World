@@ -8,5 +8,5 @@ function applicationSubmit(){
   }
 }
 function externalLink(){
-  window.open(document.getElementById("subnav").value, "_blank");
+  this.options[this.selectedIndex].value && (window.location=this.options[this.selectedIndex].value);
 }
