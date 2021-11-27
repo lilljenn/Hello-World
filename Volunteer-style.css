@@ -66,6 +66,11 @@ iframe{
   margin: 0;
   border: none;
   outline: none;
+  padding: 14px 16px;
+  color: #800000;
+  background-color: #ffd966;
+  font-family: Arial, serif;
+  cursor: pointer;
 }
 .subnav:hover .subnav-content{
   display: block;
