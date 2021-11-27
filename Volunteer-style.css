@@ -53,6 +53,23 @@ iframe{
   height: 50%;
   width: 50%;
 }
+.subnav{
+  float: left;
+  overflow: hidden;
+}
+.subnav-content{
+  display: none;
+  position: absolute;
+}
+.subnav .subnavBtn{
+  background-color: inherit;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+.subnav:hover .subnav-content{
+  display: block;
+}
 #footer{
   width: 100%;
 }
