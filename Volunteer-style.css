@@ -61,9 +61,9 @@ iframe{
 */
 .subnav-content{
   display: none;
-  position: absolute;
+/*  position: absolute; */
 }
-.subnav:hover + .subnav-content{
+.subnav:focus + .subnav-content{
   display: block;
 }
 */
