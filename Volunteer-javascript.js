@@ -13,5 +13,5 @@ function externalLink(){
 
 }
 function externalLink(){
-  document.getElementById("external").classList.toggle("show");
+  window.open(document.getElementById("linkMenu").options[document.getElementById("linkMenu").selectedIndex].value)
 }

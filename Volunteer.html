@@ -7,102 +7,111 @@
       <script src="Volunteer-javascript.js"></script>
       <title>Volunteer</title>
     </head>
-    <nav>
-              <ul class="topnav">
-                <li><a href="/Hello-World/Volunteer">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="/Hello-World/Places">Places</a></li>
-                <li><a href="/Hello-World/Donations">Donations</a></li>
-                <li><a href="/Hello-World/Application">Application</a></li>
-                <li class="external" onclick="externalLink()">
+    <body>
+      <nav>
+        <ul class="topnav">
+          <li><a href="/Hello-World/Volunteer">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="/Hello-World/Places">Places</a></li>
+          <li><a href="/Hello-World/Donations">Donations</a></li>
+          <li><a href="/Hello-World/Application">Application</a></li>
+          <li>
+            <form>
+              <select class="subnav" id="linkMenu">
+                <option class="external" onclick="externalLink()">
                   Links
-                  <ul id="links" class="subnav-content">
-                    <li><a href="https://www.volunteermatch.org/" target="_blank">Options</a></li>
-                    <li><a href="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/" target="_blank">Blankets</a></li>
-                    <li><a href="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/" target="_blank">Cards</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
-            <main>
-              <article>
-                <header>
-                  <h1>Volunteer!</h1>
-                  <p class="welcome">Welcome to Hello-World, where you can lend a hand or donate what you can!</p>
-                </header>
-                <div class="row">
-                  <div class="column">
-                    <figure>
-                      <img src="/Hello-World/remi-walle-UOwvwZ9Dy6w-unsplash.jpg" alt="holding hands"/>
-                      <figcaption>
-                        Photo by Rémi Walle on Unsplash (2016).
-                        <br/>
-                        Retrieved from https://unsplash.com/photos/UOwvwZ9Dy6w.
-                      </figcaption>
-                      <br/>
-                      <br/>
-                      <p class="welcome">
-                        Check out the <a href="/Hello-World/Places">places you can volunteer at</a> and the <a href="/Hello-World/Donations">items you can donate!</a> Be sure to <a href="/Hello-World/Application">fill out an application</a> to customize your experiences!
-                      </p>
-                      <br/>
-                      <p>
-                        More volunteering options can be found on Volunteer Match (https://www.volunteermatch.org/). More information regarding donating handmade (crocheted/knitted) items/supplies can be found on Craft Industry Alliance (https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/), and more options to send handmade cards can be found on Create to Donate (https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/). These open external links, and are linked to in the nav bar and footer of this webpage, as well.
-                      </p>
-                      <br/>
-                      <p class="welcome">Thank you for visiting Hello World!</p>
-                    </figure>
-                  </div>
-                  <div class="column">
-                    <figure>
-                      <img src="/Hello-World/nathan-lemon-FBiKcUw_sQw-unsplash.jpg" alt="cup that says, 'What good shall I do this day?'"/>
-                      <figcaption>
-                        Photo by Nathan Lemon on Unsplash (2017).
-                        <br/>
-                        Retrieved from https://unsplash.com/photos/FBiKcUw_sQw.
-                      </figcaption>
-                    </figure>
-                  </div>
-                </div>
-                <br/>
-                <div class="center">
+                </option>
+                <option value="https://www.volunteermatch.org/" target="_blank">Options</option>
+                <option value="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/" target="_blank">Blankets</option>
+                <option value="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/" target="_blank">Cards</option>
+              </select>
+            </form>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <article>
+          <header>
+            <h1>Volunteer!</h1>
+            <p class="welcome">Welcome to Hello-World, where you can lend a hand or donate what you can!</p>
+          </header>
+          <div class="row">
+            <div class="column">
+              <figure>
+                <img src="/Hello-World/remi-walle-UOwvwZ9Dy6w-unsplash.jpg" alt="holding hands"/>
+                <figcaption>
+                  Photo by Rémi Walle on Unsplash (2016).
+                  <br/>
+                  Retrieved from https://unsplash.com/photos/UOwvwZ9Dy6w.
+                </figcaption>
                 <br/>
                 <br/>
-                <figure>
-                  <img class="logo" src="/Hello-World/Hello%20World-logos.jpeg" alt="logo"/>
-                  <figcaption>Logo was created using Adobe Spark.</figcaption>
-                </figure>
-              </div>
+                <p class="welcome">
+                  Check out the <a href="/Hello-World/Places">places you can volunteer at</a> and the <a href="/Hello-World/Donations">items you can donate!</a> Be sure to <a href="/Hello-World/Application">fill out an application</a> to customize your experiences!
+                </p>
                 <br/>
+                <p>
+                  More volunteering options can be found on Volunteer Match (https://www.volunteermatch.org/). More information regarding donating handmade (crocheted/knitted) items/supplies can be found on Craft Industry Alliance (https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/), and more options to send handmade cards can be found on Create to Donate (https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/). These open external links, and are linked to in the nav bar and footer of this webpage, as well.
+                </p>
                 <br/>
-                <div id="about">
-                  <h2>About</h2>
-          	       <p>
-          	          This is a website created for LIS/IM 753 (Internet Fundamentals) at Dominican University. This website aims to present the different options in regards to places to volunteer or donate handmade items.
-          	       </p>
-                </div>
-              </article>
-            </main>
-            <footer id="footer">
-              <p>Copyright 2021</p>
-              <nav>
-                <ul class="topnav footer">
-                  <li><a href="/Hello-World/Volunteer">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="/Hello-World/Places">Places</a></li>
-                  <li><a href="/Hello-World/Donations">Donations</a></li>
-                  <li><a href="/Hello-World/Application">Application</a></li>
-                  <li class="external" onclick="externalLink()">
+                <p class="welcome">Thank you for visiting Hello World!</p>
+              </figure>
+            </div>
+            <div class="column">
+              <figure>
+                <img src="/Hello-World/nathan-lemon-FBiKcUw_sQw-unsplash.jpg" alt="cup that says, 'What good shall I do this day?'"/>
+                <figcaption>
+                  Photo by Nathan Lemon on Unsplash (2017).
+                  <br/>
+                  Retrieved from https://unsplash.com/photos/FBiKcUw_sQw.
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <br/>
+          <div class="center">
+          <br/>
+          <br/>
+            <figure>
+              <img class="logo" src="/Hello-World/Hello%20World-logos.jpeg" alt="logo"/>
+              <figcaption>Logo was created using Adobe Spark.</figcaption>
+            </figure>
+          </div>
+          <br/>
+          <br/>
+          <div id="about">
+            <h2>About</h2>
+          	<p>
+          	   This is a website created for LIS/IM 753 (Internet Fundamentals) at Dominican University. This website aims to present the different options in regards to places to volunteer or donate handmade items.
+          	</p>
+          </div>
+        </article>
+      </main>
+      <footer id="footer">
+        <p>Copyright 2021</p>
+        <nav>
+          <ul class="topnav footer">
+            <li><a href="/Hello-World/Volunteer">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="/Hello-World/Places">Places</a></li>
+            <li><a href="/Hello-World/Donations">Donations</a></li>
+            <li><a href="/Hello-World/Application">Application</a></li>
+            <li>
+              <form>
+                <select class="subnav" id="linkMenu">
+                  <option class="external" onclick="externalLink()">
                     Links
-                    <ul id="links" class="subnav-content">
-                      <li><a href="https://www.volunteermatch.org/" target="_blank">Options</a></li>
-                      <li><a href="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/" target="_blank">Blankets</a></li>
-                      <li><a href="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/" target="_blank">Cards</a></li>
-                    </ul>
-                  </li>
-                  <li class="right">Contact:<br/>Jennifer Lillie<br/>lilljenn@my.dom.edu<br/>11/26/2021</li>
-                </ul>
-              </nav>
-              <br/><br/>
-            </footer>
-  </body>
+                  </option>
+                  <option value="https://www.volunteermatch.org/" target="_blank">Options</option>
+                  <option value="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/" target="_blank">Blankets</option>
+                  <option value="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/" target="_blank">Cards</option>
+                </select>
+              </form>
+            </li>
+            <li class="right">Contact:<br/>Jennifer Lillie<br/>lilljenn@my.dom.edu<br/>11/26/2021</li>
+          </ul>
+        </nav>
+        <br/><br/>
+      </footer>
+    </body>
 </html>

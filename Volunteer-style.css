@@ -58,6 +58,10 @@ font-size: 16px;
 position: relative:;
 display: inline-block;
 list-style-type: none;
+border: none;
+}
+.subnav:hover{
+  background-color: #ffecb3;
 }
 .subnav-content{
 display: none;
@@ -87,14 +91,6 @@ background-color: #ffecb3;
 }
 .show{
   display: block;
-}
-.arrow{
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 1%;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
 }
 #footer{
   width: 100%;
