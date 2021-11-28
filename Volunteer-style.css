@@ -59,9 +59,7 @@ position: relative:;
 display: inline-block;
 list-style-type: none;
 border: none;
-}
-.subnav:hover{
-  background-color: #ffecb3;
+cursor: pointer;
 }
 .subnav-content{
 display: none;
@@ -70,6 +68,9 @@ overflow: auto;
 padding: 14px 16px;
 background-color: #ffd966;
 color: #800000;
+}
+.subnav:hover{
+background-color: #ffecb3;
 }
 .subnav-content a{
   padding: 14px 16px;

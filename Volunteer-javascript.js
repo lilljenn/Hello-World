@@ -8,13 +8,8 @@ function applicationSubmit(){
   }
 }
 function externalLink(){
-  document.getElementById("links").classList.toggle("show");
-}
-
-}
-function externalLink(){
-  window.open(document.getElementById("linkMenu").value);
+window.open(document.getElementById("linkMenu").value);
 }
 function footer(){
-  window.open(document.getElementById("footerMenu").value);
+window.open(document.getElementById("footerMenu").value);
 }
