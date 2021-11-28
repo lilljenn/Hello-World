@@ -35,47 +35,53 @@
       </header>
       <article>
         <div class="application">
-          <h2>Name</h2>
+          <p>
+            <h2>Name</h2>
+            <br/>
+            <br/>
+            Please write your name:
+            <br/>
+            <br/>
+            Name: <input type="text" name="name" id="name">
+            <br/>
+            <br/>
+          </p>
+          <p>
+            <h3>Days Available</h3>
+            <br/>
+            <br/>
+            Please select the days you are available to volunteer:
+            <br/>
+            To select multiple values, please hold the "ctrl" key (Windows) or the "Command" button (Mac).
+            <br/>
+            <br/>
+            <select multiple>
+              <option value="sunday">Sunday</option>
+              <option value="monday">Monday</option>
+              <option value="tuesday">Tuesday</option>
+              <option value="wednesday">Wednesday</option>
+              <option value="thursday">Thursday</option>
+              <option value="friday">Friday</option>
+              <option value="saturday">Saturday</option>
+            </select>
+            <br/>
+            <br/>
+          </p>
+          <p>
+            <h4>Personal Reasons</h4>
+            <br/>
+            <br/>
+            Please write about why you would like to volunteer:
+            <br/>
+            <br/>
+            <textarea placeholder="Write something..." style="height: 200px"></textarea>
+            <br/>
+            <br/>
+            <input type="submit" onclick="applicationSubmit()">
+          </div>
           <br/>
           <br/>
-          Please write your name:
-          <br/>
-          <br/>
-          Name: <input type="text" name="name" id="name">
-          <br/>
-          <br/>
-          <h3>Days Available</h3>
-          <br/>
-          <br/>
-          Please select the days you are available to volunteer:
-          <br/>
-          To select multiple values, please hold the "ctrl" key (Windows) or the "Command" button (Mac).
-          <br/>
-          <br/>
-          <select multiple>
-            <option value="sunday">Sunday</option>
-            <option value="monday">Monday</option>
-            <option value="tuesday">Tuesday</option>
-            <option value="wednesday">Wednesday</option>
-            <option value="thursday">Thursday</option>
-            <option value="friday">Friday</option>
-            <option value="saturday">Saturday</option>
-          </select>
-          <br/>
-          <br/>
-          <h4>Personal Reasons</h4>
-          <br/>
-          <br/>
-          Please write about why you would like to volunteer:
-          <br/>
-          <br/>
-          <textarea placeholder="Write something..." style="height: 200px"></textarea>
-          <br/>
-          <br/>
-          <input type="submit" onclick="applicationSubmit()">
-        </div>
-        <br/>
-        <br/>
+        </p>
         <p id="output"></p>
         <div class="center">
           <br/>
