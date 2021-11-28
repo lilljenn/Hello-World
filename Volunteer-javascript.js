@@ -8,7 +8,7 @@ function applicationSubmit(){
   }
 }
 function externalLink(){
-window.open(document.getElementById("linkMenu").value);
+ window.open(document.getElementById("linkMenu").value);
 }
 function footer(){
 window.open(document.getElementById("footerMenu").value);
