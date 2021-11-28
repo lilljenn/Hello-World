@@ -11,19 +11,24 @@
     <nav>
       <ul class="topnav">
         <li><a href="/Hello-World/Volunteer">Home</a></li>
-        <li><a href="#about">About</a></li>
         <li><a href="/Hello-World/Places">Places</a></li>
         <li><a href="/Hello-World/Donations">Donations</a></li>
         <li><a href="/Hello-World/Application">Application</a></li>
         <li>
           <form>
             <select class="subnav" id="linkMenu" onchange="externalLink()">
-              <option class="external" disabled selected hidden>
-                Links
+              <option class="external" name="external" id="external" disabled selected hidden>
+                <label for="external">Links</label>
               </option>
-              <option value="https://www.volunteermatch.org/">Options</option>
-              <option value="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/">Blankets</option>
-              <option value="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/">Cards</option>
+              <option class="options" name="options" id="options" value="https://www.volunteermatch.org/">
+                <label for="options">Options</label>
+              </option>
+              <option class="blankets" name="blankets" id="blankets" value="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/">
+                <label for="blankets">Blankets</label>
+              </option>
+              <option class="cards" name="cards" id="cards" value="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/">
+                <label for="cards">Cards</label>
+              </option>
             </select>
           </form>
         </li>
@@ -43,7 +48,8 @@
             </p>
             <br/>
             <br/>
-            Name: <input type="text" name="name" id="name">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" value="name">
             <br/>
             <br/>
             <h3>Days Available</h3>
@@ -57,13 +63,27 @@
             <br/>
             <br/>
             <select multiple>
-              <option value="sunday">Sunday</option>
-              <option value="monday">Monday</option>
-              <option value="tuesday">Tuesday</option>
-              <option value="wednesday">Wednesday</option>
-              <option value="thursday">Thursday</option>
-              <option value="friday">Friday</option>
-              <option value="saturday">Saturday</option>
+              <option class="sunday" name="sunday" id="sunday" value="sunday">
+                <label for="sunday">Sunday</label>
+              </option>
+              <option class="monday" name="monday" id="monday"> value="monday">
+                <label for="monday">Monday</label>
+              </option>
+              <option class="tuesday" name="tuesday" id="tuesday" value="tuesday">
+                <label for="tuesday">Tuesday</label>
+              </option>
+              <option class="wednesday" name="wednesday" id="wednesday" value="wednesday">
+                <label for="wednesday">Wednesday</label>
+              </option>
+              <option class="thursday" name="thursday" id="thursday" value="thursday">
+                <label for="thursday">Thursday</label>
+              </option>
+              <option class="friday" name="friday" id="friday" value="friday">
+                <label for="friday">Friday</label>
+              </option>
+              <option class="saturday" name="saturday" id="saturday" value="saturday">
+                <label for="saturday">Saturday</saturday>
+              </option>
             </select>
             <br/>
             <br/>
@@ -71,14 +91,14 @@
             <br/>
             <br/>
             <p>
-              Please write about why you would like to volunteer:
+              <label for="reasons">Please write about why you would like to volunteer: </label>
             </p>
             <br/>
             <br/>
-            <textarea placeholder="Write something..." style="height: 200px"></textarea>
+            <textarea placeholder="Write something..." style="height: 200px" id="reasons" name="reasons" value="reasons"></textarea>
             <br/>
             <br/>
-            <input type="submit" onclick="applicationSubmit()">
+            <input type="submit" onclick="applicationSubmit()" value="submit">
             <br/>
             <br/>
           </div>
@@ -87,7 +107,7 @@
           <br/>
           <br/>
           <figure>
-            <img class="logo" src="/Hello-World/Hello%20World-logos.jpeg" alt="logo"/>
+            <img class="logo" src="/Hello-World/Hello%20World-logos.jpeg" alt="HW Hello World"/>
             <figcaption>Logo was created using Adobe Spark.</figcaption>
           </figure>
         </div>
@@ -97,19 +117,24 @@
         <nav>
           <ul class="topnav footer">
             <li><a href="/Hello-World/Volunteer">Home</a></li>
-            <li><a href="#about">About</a></li>
             <li><a href="/Hello-World/Places">Places</a></li>
             <li><a href="/Hello-World/Donations">Donations</a></li>
             <li><a href="/Hello-World/Application">Application</a></li>
             <li>
               <form>
                 <select class="subnav" id="footerMenu" onchange="footer()">
-                  <option value="" class="external" disabled selected hidden>
-                    Links
+                  <option value="" class="external" name="externalFooter" id="externalFooter" disabled selected hidden>
+                    <label for="externalFooter">Links</label>
                   </option>
-                  <option value="https://www.volunteermatch.org/">Options</option>
-                  <option value="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/">Blankets</option>
-                  <option value="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/">Cards</option>
+                  <option class="options" name="optionsFooter" id="optionsFooter" value="https://www.volunteermatch.org/">
+                    <label for="optionsFooter">Options</label
+                  </option>
+                  <option class="blankets" name="blanketsFooter" id="blanketsFooter" value="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/">
+                    <label for="blanketsFooter">Blankets</label>
+                  </option>
+                  <option class="cards" name="cardsFooter" id="cardsFooter" value="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/">
+                    <label for="cardsFooter">Cards</label>
+                  </option>
                 </select>
               </form>
             </li>
