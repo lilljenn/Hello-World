@@ -13,5 +13,8 @@ function externalLink(){
 
 }
 function externalLink(){
-  window.open(document.getElementById("linkMenu").options[document.getElementById("linkMenu").selectedIndex].value)
+  window.open(document.getElementById("linkMenu").value);
+}
+function footer(){
+  window.open(document.getElementById("footerMenu").value);
 }
