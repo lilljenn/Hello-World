@@ -16,19 +16,21 @@
         <li><a href="/Hello-World/Application">Application</a></li>
         <li>
           <form>
-            <select class="subnav" name="linkMenu" id="linkMenu" onchange="externalLink()">
+            <select class="subnav" name="linkMenu" id="linkMenu" label="linkMenu">
               <option class="external" name="external" id="external" disabled selected hidden>
-                Links
+                <label for="external" onclick="externalLink()">Links</label>
               </option>
-              <option class="options" name="options" id="options" value="https://www.volunteermatch.org/">
-                Options
-              </option>
-              <option class="blankets" name="blankets" id="blankets" value="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/">
-                Blankets
-              </option>
-              <option class="cards" name="cards" id="cards" value="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/">
-                Cards
-              </option>
+              <optgroup label="selectLink">
+                <option class="options" name="options" id="options" value="https://www.volunteermatch.org/">
+                  <label for="options">Options</label>
+                </option>
+                <option class="blankets" name="blankets" id="blankets" value="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/">
+                  <label for="blankets">Blankets</label>
+                </option>
+                <option class="cards" name="cards" id="cards" value="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/">
+                  <label for="cards">Cards</label>
+                </option>
+              </optgroup>
             </select>
           </form>
         </li>
