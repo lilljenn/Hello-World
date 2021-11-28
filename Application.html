@@ -11,17 +11,21 @@
     <nav>
       <ul class="topnav">
         <li><a href="/Hello-World/Volunteer">Home</a></li>
-        <li><a href=/Hello-World/Volunteer#about>About</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="/Hello-World/Places">Places</a></li>
         <li><a href="/Hello-World/Donations">Donations</a></li>
         <li><a href="/Hello-World/Application">Application</a></li>
-        <li class="external" onclick="externalLink()">
-          Links
-          <ul id="links" class="subnav-content">
-            <li><a href="https://www.volunteermatch.org/" target="_blank">Options</a></li>
-            <li><a href="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/" target="_blank">Blankets</a></li>
-            <li><a href="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/" target="_blank">Cards</a></li>
-          </ul>
+        <li>
+          <form>
+            <select class="subnav" id="linkMenu" onchange="externalLink()">
+              <option class="external" disabled selected hidden>
+                Links
+              </option>
+              <option value="https://www.volunteermatch.org/">Options</option>
+              <option value="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/">Blankets</option>
+              <option value="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/">Cards</option>
+            </select>
+          </form>
         </li>
       </ul>
     </nav>
@@ -33,12 +37,14 @@
         <div class="application">
           Please write your name:
           <br/>
+          <br/>
           Name: <input type="text" name="name" id="name">
           <br/>
           <br/>
           Please select the days you are available to volunteer:
           <br/>
           To select multiple values, please hold the "ctrl" key (Windows) or the "Command" button (Mac).
+          <br/>
           <br/>
           <select multiple>
             <option value="sunday">Sunday</option>
@@ -52,33 +58,44 @@
           <br/><br/>
           Please write about why you would like to volunteer:
           <br/>
+          <br/>
           <textarea placeholder="Write something..." style="height: 200px"></textarea>
-          <br/><br/>
+          <br/>
+          <br/>
           <input type="submit" onclick="applicationSubmit()">
         </div>
-        <br/><br/>
+        <br/>
+        <br/>
         <p id="output"></p>
-        <figure>
-          <img class="logo" src="/Hello-World/Hello%20World-logos.jpeg" alt="logo"/>
-          <figcaption>Logo was created using Adobe Spark.</figcaption>
-        </figure>
+        <div class="center">
+          <br/>
+          <br/>
+          <figure>
+            <img class="logo" src="/Hello-World/Hello%20World-logos.jpeg" alt="logo"/>
+            <figcaption>Logo was created using Adobe Spark.</figcaption>
+          </figure>
+        </div>
       </article>
       <footer id="footer">
         <p>Copyright 2021</p>
         <nav>
           <ul class="topnav footer">
             <li><a href="/Hello-World/Volunteer">Home</a></li>
-            <li><a href="/Hello-World/Volunteer#about">About</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="/Hello-World/Places">Places</a></li>
             <li><a href="/Hello-World/Donations">Donations</a></li>
             <li><a href="/Hello-World/Application">Application</a></li>
-            <li class="external" onclick="externalLink()">
-              Links
-              <ul id="links" class="subnav-content">
-                <li><a href="https://www.volunteermatch.org/" target="_blank">Options</a></li>
-                <li><a href="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/" target="_blank">Blankets</a></li>
-                <li><a href="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/" target="_blank">Cards</a></li>
-              </ul>
+            <li>
+              <form>
+                <select class="subnav" id="footerMenu" onchange="footer()">
+                  <option value="" class="external" disabled selected hidden>
+                    Links
+                  </option>
+                  <option value="https://www.volunteermatch.org/">Options</option>
+                  <option value="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/">Blankets</option>
+                  <option value="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/">Cards</option>
+                </select>
+              </form>
             </li>
             <li class="right">Contact:<br/>Jennifer Lillie<br/>lilljenn@my.dom.edu<br/>11/26/2021</li>
           </ul>
