@@ -16,18 +16,18 @@
         <li><a href="/Hello-World/Application">Application</a></li>
         <li>
           <form>
-            <select class="subnav" id="linkMenu" onchange="externalLink()">
+            <select class="subnav" name="linkMenu" id="linkMenu" onchange="externalLink()">
               <option class="external" name="external" id="external" disabled selected hidden>
-                <label for="external">Links</label>
+                Links
               </option>
               <option class="options" name="options" id="options" value="https://www.volunteermatch.org/">
-                <label for="options">Options</label>
+                Options
               </option>
               <option class="blankets" name="blankets" id="blankets" value="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/">
-                <label for="blankets">Blankets</label>
+                Blankets
               </option>
               <option class="cards" name="cards" id="cards" value="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/">
-                <label for="cards">Cards</label>
+                Cards
               </option>
             </select>
           </form>
@@ -42,18 +42,15 @@
         <div class="application">
             <h2>Name</h2>
             <br/>
-            <br/>
             <p>
               Please write your name:
             </p>
-            <br/>
             <br/>
             <label for="name">Name: </label>
             <input type="text" name="name" id="name" value="name">
             <br/>
             <br/>
-            <h3>Days Available</h3>
-            <br/>
+            <h3><label for="days">Days Available</label></h3>
             <br/>
             <p>
               Please select the days you are available to volunteer:
@@ -61,12 +58,11 @@
               To select multiple values, please hold the "ctrl" key (Windows) or the "Command" button (Mac).
             </p>
             <br/>
-            <br/>
-            <select multiple>
+            <select multiple class="days" name="days" id="days">
               <option class="sunday" name="sunday" id="sunday" value="sunday">
                 <label for="sunday">Sunday</label>
               </option>
-              <option class="monday" name="monday" id="monday"> value="monday">
+              <option class="monday" name="monday" id="monday" value="monday">
                 <label for="monday">Monday</label>
               </option>
               <option class="tuesday" name="tuesday" id="tuesday" value="tuesday">
@@ -89,11 +85,9 @@
             <br/>
             <h4>Personal Reasons</h4>
             <br/>
-            <br/>
             <p>
               <label for="reasons">Please write about why you would like to volunteer: </label>
             </p>
-            <br/>
             <br/>
             <textarea placeholder="Write something..." style="height: 200px" id="reasons" name="reasons" value="reasons"></textarea>
             <br/>
@@ -124,16 +118,16 @@
               <form>
                 <select class="subnav" id="footerMenu" onchange="footer()">
                   <option value="" class="external" name="externalFooter" id="externalFooter" disabled selected hidden>
-                    <label for="externalFooter">Links</label>
+                    <label for="footerMenu">Links</label>
                   </option>
                   <option class="options" name="optionsFooter" id="optionsFooter" value="https://www.volunteermatch.org/">
-                    <label for="optionsFooter">Options</label
+                    Options
                   </option>
                   <option class="blankets" name="blanketsFooter" id="blanketsFooter" value="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/">
-                    <label for="blanketsFooter">Blankets</label>
+                    Blankets
                   </option>
                   <option class="cards" name="cardsFooter" id="cardsFooter" value="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/">
-                    <label for="cardsFooter">Cards</label>
+                    Cards
                   </option>
                 </select>
               </form>
