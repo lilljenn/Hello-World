@@ -39,7 +39,7 @@ figure figcaption {
   height: auto;
 }
 .welcome{
-  font-size: 5vw;
+  font-size: 24px;
 }
 .row{
   display: flex;
