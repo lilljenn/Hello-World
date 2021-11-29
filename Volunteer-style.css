@@ -41,8 +41,8 @@ figure figcaption {
   display: flex;
 }
 .column {
-margin: 1%;
-width: 45%;
+  margin: 1%;
+  width: 45%;
 }
 .places, .application, .center{
   display: table;
@@ -53,79 +53,26 @@ iframe{
   height: 50%;
   width: 50%;
 }
-.subnav{
-  padding: 14px 16px;
+.subnav {
   background-color: #ffd966;
   color: #800000;
   font-size: 16px;
-  position: relative;
-  display: inline-block;
-  list-style-type: none;
+  padding: 0;
   border: none;
   cursor: pointer;
-}
-.subnav-content{
-  display: none;
-  position: absolute;
-  overflow: auto;
-  padding: 0;
-  background-color: #ffd966;
-  color: #800000;
 }
 .subnav:hover ul{
   background-color: #ffecb3;
+}
+.topnav {
+  position: relative;
   display: inline-block;
-}
-.subnav{
-  display: block;
-  margin: 0;
-  padding: 0;
-}
-.subnav-content a{
-  padding: 0;
-  text-decoration: none;
-  display: inline;
-}
-.subnav-content li{
-  display: block;
-  background-color: #ffd966;
-  padding: 0;
-  margin: 0;
-}
-.subnav-content a:hover{
-  background-color: #ffecb3;
-}
-.topnav{
-  display: block;
-}
-.external{
-  background-color: #ffd966;
-  color: #800000;
-  font-size: 16px;
-  font-family: Arial, serif;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  text-decoration: none;
-  float: none;
-}
-.external:hover, .external:focus{
-  background-color: #ffecb3;
-}
-.external:hover .li{
-  display: block;
-}
-#footer{
   width: 100%;
-}
-.footer:hover .subnavFooter{
-  bottom: 100%;
 }
 ul.topnav {
 	list-style: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   border: 1px solid #800000;
   background-color: #ffd966;
 }
@@ -142,6 +89,40 @@ ul.topnav li a {
 ul.topnav li a:hover:not(.active) {
   background-color: #ffecb3;
 }
+.subnav-content {
+  display: none;
+  position: absolute;
+  background-color: #ffd966;
+  color: #800000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 0;
+}
+
+.subnav-content a {
+  color: black;
+  padding: 0;
+  text-decoration: none;
+  display: block;
+}
+.subnav-content li{
+  display: block;
+  background-color: #ffd966;
+  padding: 0;
+  margin: 0;
+}
+.subnav-content a:hover {background-color: #ffecb3}
+.topnav:hover .subnav-content {
+  display: block;
+}
+.topnav:hover .subnav {
+  background-color: #ffecb3;
+  color: #800000;
+}
+#footer{
+  width: 100%;
+}
 ul.footer li.right {float: right;}
 @media screen and (min-width: 300px) and (max-width:600px){
   .column{
@@ -156,4 +137,9 @@ ul.footer li.right {float: right;}
 	ul.topnav li {
 		float: none;
 	}
+  .subnavFooter ul{
+	  bottom: 40%;
+    width: 100%;
+    position: absolute;
+  }
 }
