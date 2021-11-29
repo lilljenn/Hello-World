@@ -118,6 +118,9 @@ iframe{
 #footer{
   width: 100%;
 }
+.footer:hover .subnavFooter{
+  bottom: 100%;
+}
 ul.topnav {
 	list-style: none;
   margin: 0;
