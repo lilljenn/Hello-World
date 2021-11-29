@@ -39,6 +39,7 @@ figure figcaption {
 }
 .row{
   display: flex;
+  flex-direction: row;
 }
 .column {
   margin: 1%;
@@ -114,10 +115,10 @@ ul.topnav li a:hover:not(.active) {
   margin: 0;
 }
 .subnav-content a:hover {background-color: #ffecb3}
-.topnav:hover .subnav-content {
+.subnav:hover .subnav-content {
   display: block;
 }
-.topnav:hover .subnav {
+.subnav:hover .subnav {
   background-color: #ffecb3;
   color: #800000;
 }
@@ -126,27 +127,34 @@ ul.topnav li a:hover:not(.active) {
 }
 ul.footer li.right {float: right;}
 @media screen and (min-width: 300px) and (max-width:600px){
+  .row{
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
   .column{
     text-align: center;
     width: 100%;
-  }
+  }/*
   .imageRight{
     display: none;
     visibility: hidden;
   }
+  */
   ul.topnav li.right,
 	ul.topnav li {
-		float: none;
+	  float: none;
 	}
-    .subnavFooter ul{
-	     bottom: 40%;
-       width: 100%;
-       position: absolute;
-}
-.subnav-content{
-  width: 100%;
-}
-.responsiveHeading{
-  text-align: center;
+  .subnavFooter ul{
+	  bottom: 40%;
+    width: 100%;
+    position: absolute;
+   }
+  .subnav-content{
+    width: 100%;
+  }
+  .responsiveHeading{
+    text-align: center;
   }
 }

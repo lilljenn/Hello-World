@@ -41,6 +41,7 @@
       </header>
       <article>
         <div class="application">
+          <form>
             <h2>Name</h2>
             <br/>
             <p>
@@ -56,32 +57,27 @@
             <p>
               Please select the days you are available to volunteer:
               <br/>
-              To select multiple values, please hold the "ctrl" key (Windows) or the "Command" button (Mac).
             </p>
+            <input type="checkbox" id="sunday" name="sunday" value="Sunday"/>
+            <label for="sunday">Sunday</label>
             <br/>
-            <select multiple class="days" name="days" id="days">
-              <option class="sunday" id="sunday" value="sunday">
-                Sunday
-              </option>
-              <option class="monday" id="monday" value="monday">
-                Monday
-              </option>
-              <option class="tuesday" id="tuesday" value="tuesday">
-                Tuesday
-              </option>
-              <option class="wednesday" id="wednesday" value="wednesday">
-                Wednesday
-              </option>
-              <option class="thursday" id="thursday" value="thursday">
-                Thursday
-              </option>
-              <option class="friday" id="friday" value="friday">
-                Friday
-              </option>
-              <option class="saturday" id="saturday" value="saturday">
-                Saturday
-              </option>
-            </select>
+            <input type="checkbox" id="monday" name="monday" value="Monday"/>
+            <label for="monday">Monday</label>
+            <br/>
+            <input type="checkbox" id="tuesday" name="tuesday" value="tuesday"/>
+            <label for="tuesday">Tuesday</label>
+            <br/>
+            <input type="checkbox" id="wednesday" name="wednesday" value="wednesday"/>
+            <label for="wednesday">Wednesday</label>
+            <br/>
+            <input type="checkbox" id="thursday" name="thursday" value="thursday"/>
+            <label for="thursday">Thursday</label>
+            <br/>
+            <input type="checkbox" id="friday" name="friday" value="friday"/>
+            <label for="friday">Friday</label>
+            <br/>
+            <input type="checkbox" id="saturday" name="saturday" value="saturday"/>
+            <label for="saturday">Saturday</label>
             <br/>
             <br/>
             <h4>Personal Reasons</h4>
@@ -96,11 +92,12 @@
             <input type="submit" onclick="applicationSubmit()" value="submit">
             <br/>
             <br/>
-          </div>
-          <p id="output"></p>
-          <div class="center">
-          <br/>
-          <br/>
+          </form>
+        </div>
+        <p id="output"></p>
+        <div class="center">
+        <br/>
+        <br/>
           <figure>
             <img class="logo" src="/Hello-World/Hello%20World-logos.jpeg" alt="HW Hello World"/>
             <figcaption>Logo was created using Adobe Spark.</figcaption>
