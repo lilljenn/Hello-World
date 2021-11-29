@@ -99,7 +99,6 @@ ul.topnav li a:hover:not(.active) {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   padding: 0;
-  width: 100%;
   text-align: center;
 }
 .subnav-content a {
@@ -143,6 +142,9 @@ ul.footer li.right {float: right;}
 	  bottom: 40%;
     width: 100%;
     position: absolute;
+  }
+  .subnav-content{
+    width: 100%;
   }
   .responsiveHeading{
     text-align: center;
