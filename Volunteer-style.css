@@ -141,7 +141,7 @@ ul.topnav li a:hover:not(.active) {
 }
 ul.footer li.right {float: right;}
 @media screen and (min-width: 300px) and (max-width:600px){
-  .welcome{
+  .column{
     text-align: center;
     width: 100%;
   }
