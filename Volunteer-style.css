@@ -145,6 +145,10 @@ ul.footer li.right {float: right;}
     text-align: center;
     width: 100%;
   }
+  .imageRight{
+    display: none;
+    visibility: hidden;
+  }
   ul.topnav li.right,
 	ul.topnav li {
 		float: none;
