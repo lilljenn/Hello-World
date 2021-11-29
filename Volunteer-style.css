@@ -58,7 +58,7 @@ iframe{
   background-color: #ffd966;
   color: #800000;
   font-size: 16px;
-  position: relative:;
+  position: relative;
   display: inline-block;
   list-style-type: none;
   border: none;
@@ -112,7 +112,7 @@ iframe{
 .external:hover, .external:focus{
   background-color: #ffecb3;
 }
-.external: hover .li{
+.external:hover .li{
   display: block;
 }
 #footer{
