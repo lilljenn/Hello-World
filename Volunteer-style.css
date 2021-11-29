@@ -138,15 +138,15 @@ ul.footer li.right {float: right;}
 	ul.topnav li {
 		float: none;
 	}
-  .subnavFooter ul{
-	  bottom: 40%;
-    width: 100%;
-    position: absolute;
-  }
-  .subnav-content{
-    width: 100%;
-  }
-  .responsiveHeading{
-    text-align: center;
+    .subnavFooter ul{
+	     bottom: 40%;
+       width: 100%;
+       position: absolute;
+}
+.subnav-content{
+  width: 100%;
+}
+.responsiveHeading{
+  text-align: center;
   }
 }
