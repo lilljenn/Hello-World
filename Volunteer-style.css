@@ -51,48 +51,69 @@ iframe{
   width: 50%;
 }
 .subnav{
-padding: 14px 16px;
-background-color: #ffd966;
-color: #800000;
-font-size: 16px;
-position: relative:;
-display: inline-block;
-list-style-type: none;
-border: none;
-cursor: pointer;
+  padding: 14px 16px;
+  background-color: #ffd966;
+  color: #800000;
+  font-size: 16px;
+  position: relative:;
+  display: inline-block;
+  list-style-type: none;
+  border: none;
+  cursor: pointer;
 }
 .subnav-content{
-display: none;
-position: absolute;
-overflow: auto;
-padding: 14px 16px;
-background-color: #ffd966;
-color: #800000;
+  display: none;
+  position: absolute;
+  overflow: auto;
+  padding: 0;
+  background-color: #ffd966;
+  color: #800000;
 }
-.subnav:hover{
-background-color: #ffecb3;
+.subnav:hover ul{
+  background-color: #ffecb3;
+  display: inline-block;
+}
+.subnav{
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 .subnav-content a{
-  padding: 14px 16px;
+  padding: 0;
   text-decoration: none;
+  display: inline;
+}
+.subnav-content li{
   display: block;
+  background-color: #ffd966;
+  padding: 0;
+  margin: 0;
 }
 .subnav-content a:hover{
   background-color: #ffecb3;
 }
-.external{
-background-color: #ffd966;
-color: #800000;
-padding: 14px 16px;
-border: none;
-cursor: pointer;
-}
-.external:hover, .external:focus{
-background-color: #ffecb3;
-}
-.show{
+.topnav{
   display: block;
 }
+
+.external{
+  background-color: #ffd966;
+  color: #800000;
+  font-size: 16px;
+  font-family: Arial, serif;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  float: none;
+}
+.external:hover, .external:focus{
+  background-color: #ffecb3;
+}
+.external: hover .li{
+  display: block;
+}
+
 #footer{
   width: 100%;
 }

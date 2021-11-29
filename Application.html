@@ -14,25 +14,24 @@
         <li><a href="/Hello-World/Places">Places</a></li>
         <li><a href="/Hello-World/Donations">Donations</a></li>
         <li><a href="/Hello-World/Application">Application</a></li>
-        <li>
-          <form>
-            <select class="subnav" name="linkMenu" id="linkMenu" label="linkMenu">
-              <option class="external" name="external" id="external" disabled selected hidden>
-                <label for="external" onclick="externalLink()">Links</label>
-              </option>
-              <optgroup label="selectLink">
-                <option class="options" name="options" id="options" value="https://www.volunteermatch.org/">
-                  <label for="options">Options</label>
-                </option>
-                <option class="blankets" name="blankets" id="blankets" value="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/">
-                  <label for="blankets">Blankets</label>
-                </option>
-                <option class="cards" name="cards" id="cards" value="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/">
-                  <label for="cards">Cards</label>
-                </option>
-              </optgroup>
-            </select>
-          </form>
+        <li class="subnav"><a>Links</a>
+          <ul class="subnav-content">
+            <li>
+              <a href="https://www.volunteermatch.org/" target="_blank">
+                Options
+              </a>
+            </li>
+            <li>
+              <a href="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/" target="_blank">
+                Blankets
+              </a>
+            </li>
+            <li>
+              <a href="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/" target="_blank">
+                Cards
+              </a>
+            </li>
+          </ul>
         </li>
       </ul>
     </nav>
@@ -116,23 +115,24 @@
             <li><a href="/Hello-World/Places">Places</a></li>
             <li><a href="/Hello-World/Donations">Donations</a></li>
             <li><a href="/Hello-World/Application">Application</a></li>
-            <li>
-              <form>
-                <select class="subnav" id="footerMenu" onchange="footer()">
-                  <option value="" class="external" name="externalFooter" id="externalFooter" disabled selected hidden>
-                    <label for="footerMenu">Links</label>
-                  </option>
-                  <option class="options" name="optionsFooter" id="optionsFooter" value="https://www.volunteermatch.org/">
+            <li class="subnav"><a>Links</a>
+              <ul class="subnav-content">
+                <li>
+                  <a href="https://www.volunteermatch.org/" target="_blank">
                     Options
-                  </option>
-                  <option class="blankets" name="blanketsFooter" id="blanketsFooter" value="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://craftindustryalliance.org/11-charities-that-need-your-handmade-goods-and-craft-supplies/" target="_blank">
                     Blankets
-                  </option>
-                  <option class="cards" name="cardsFooter" id="cardsFooter" value="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/">
+                  </a>
+                </li>
+                <li>
+                  <a href="https://createtodonate.org/where-can-i-donate-handmade-cards-to-charity/" target="_blank">
                     Cards
-                  </option>
-                </select>
-              </form>
+                  </a>
+                </li>
+              </ul>
             </li>
             <li class="right">Contact:<br/>Jennifer Lillie<br/>lilljenn@my.dom.edu<br/>11/26/2021</li>
           </ul>
