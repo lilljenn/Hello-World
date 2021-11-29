@@ -7,9 +7,3 @@ function applicationSubmit(){
     document.getElementById("output").innerHTML="Please enter a name.";
   }
 }
-function externalLink(){
- window.open(document.getElementById("linkMenu").value);
-}
-function footer(){
-window.open(document.getElementById("footerMenu").value);
-}
