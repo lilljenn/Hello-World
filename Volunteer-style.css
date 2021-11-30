@@ -68,9 +68,6 @@ ul.days li a {
   padding: 24px 16px;
   border: 1px solid #800000;
 }
-ul.days li a:hover:not(.active) {
-  background-color: #ffecb3;
-}
 iframe{
   height: 50%;
   width: 50%;
