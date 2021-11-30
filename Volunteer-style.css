@@ -50,11 +50,12 @@ figure figcaption {
   margin: 0 auto;
   text-align: center;
 }
-.checkboxes{
-  display: inline-block;
+.days{
+  display: block;
+  align-items: baseline;
 }
 input[type="checkbox"]{
-  margin-left: 10%;
+  flex: none;
 }
 iframe{
   height: 50%;
