@@ -50,6 +50,12 @@ figure figcaption {
   margin: 0 auto;
   text-align: center;
 }
+.checkboxes{
+  display: inline-block;
+}
+input[type="checkbox"]{
+  margin-left: 10%;
+}
 iframe{
   height: 50%;
   width: 50%;
