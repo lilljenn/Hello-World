@@ -142,12 +142,7 @@ ul.footer li.right {float: right;}
   .column{
     text-align: center;
     width: 100%;
-  }/*
-  .imageRight{
-    display: none;
-    visibility: hidden;
   }
-  */
   ul.topnav li.right,
 	ul.topnav li {
 	  float: none;
@@ -162,5 +157,8 @@ ul.footer li.right {float: right;}
   }
   .responsiveHeading{
     text-align: center;
+  }
+  .logo{
+    width: 40%;
   }
 }
