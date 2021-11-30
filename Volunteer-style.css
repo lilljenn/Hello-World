@@ -50,24 +50,19 @@ figure figcaption {
   margin: 0 auto;
   text-align: center;
 }
-.checkboxes{
-  display: grid;
-  grid-template-areas:
-  'sundayCheckbox'
-  'mondayCheckbox'
-  'tuesdayCheckbox'
-  'wednesdayCheckbox'
-  'thursdayCheckbox'
-  'fridayCheckbox'
-  'saturdayCheckbox';
-  grid-gap: 2%;
-  padding-left: 50%;
+ul.days{
+  list-style: none;
+  margin: 0;
+  padding: 50%;
+  background-color: #ffd966;
   width: 100%;
-}
-.checkboxes > div{
   text-align: center;
-  padding: 3% 0;
-  width: 50%;
+}
+ul.days li a {
+  display: block;
+  text-decoration: none;
+  color: #800000;
+  padding: 14px 16px;
 }
 iframe{
   height: 50%;
