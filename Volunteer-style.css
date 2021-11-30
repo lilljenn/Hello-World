@@ -62,7 +62,9 @@ ul.days li a {
   display: block;
   text-decoration: none;
   color: #800000;
+  font-size: 20px;
   padding: 14px 16px;
+  border: 1px solid #800000;
 }
 iframe{
   height: 50%;
