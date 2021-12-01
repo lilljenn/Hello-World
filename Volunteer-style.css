@@ -207,6 +207,7 @@ ul.footer li.right {float: right;}
   .button{
     width: 100%;
     height: 70px;
+    padding: 0px;
   }
   .textbox{
     width: 100%;

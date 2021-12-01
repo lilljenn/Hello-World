@@ -42,6 +42,7 @@ sunday.onclick=function(){
     }
   if (count%2 == 0){
     sunday.style.backgroundColor="#ffd966";
+    count=0;
   }
 }
 monday.onclick=function(){
@@ -57,6 +58,7 @@ monday.onclick=function(){
   }
   if (count%2 == 0){
     monday.style.backgroundColor="#ffd966";
+    count=0;
   }
 }
 tuesday.onclick=function(){
@@ -72,6 +74,7 @@ tuesday.onclick=function(){
   }
   if (count%2 == 0){
     tuesday.style.backgroundColor="#ffd966";
+    count=0;
   }
 }
 wednesday.onclick=function(){
@@ -87,6 +90,7 @@ wednesday.onclick=function(){
   }
   if (count%2 == 0){
     wednesday.style.backgroundColor="#ffd966";
+    count=0;
   }
 }
 thursday.onclick=function(){
@@ -102,6 +106,7 @@ thursday.onclick=function(){
   }
   if (count%2 == 0){
     thursday.style.backgroundColor="#ffd966";
+    count=0;
   }
 }
 friday.onclick=function(){
@@ -117,6 +122,7 @@ friday.onclick=function(){
   }
   if (count%2 == 0){
     friday.style.backgroundColor="#ffd966";
+    count=0;
   }
 }
 saturday.onclick=function(){
@@ -132,5 +138,6 @@ saturday.onclick=function(){
   }
   if (count%2 == 0){
     saturday.style.backgroundColor="#ffd966";
+    count=0;
   }
 }
