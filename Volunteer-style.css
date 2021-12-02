@@ -164,10 +164,10 @@ ul.topnav li a:hover:not(.active) {
   margin: 0;
 }
 .subnav-content a:hover {background-color: #ffecb3}
-.subnav:hover, .subnav-content {
+.subnav:hover .subnav-content {
   display: block;
 }
-.subnav:hover, .subnav {
+.subnav:hover .subnav {
   background-color: #ffecb3;
   color: #800000;
 }
