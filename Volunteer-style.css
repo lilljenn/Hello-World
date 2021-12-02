@@ -201,8 +201,11 @@ ul.footer li.right {float: right;}
   .responsiveHeading{
     text-align: center;
   }
-  .logo, .images{
+  .logo{
     width: 40%;
+  }
+  .images{
+    width: 50%;
   }
   .size{
   width: 100%;
